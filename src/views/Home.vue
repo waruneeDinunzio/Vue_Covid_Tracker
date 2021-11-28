@@ -1,6 +1,7 @@
 <template>
   <div class="home">
    Hello world
+   
   </div>
 </template>
 
@@ -10,6 +11,11 @@ export default {
   name: 'Home',
   components: {
     
+  },
+  methods: {
+    async fetchCovidData() {
+      const res = await fetch('')
+    }
   }
 }
 </script>
