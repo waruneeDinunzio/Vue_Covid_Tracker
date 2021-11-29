@@ -14,8 +14,15 @@ export default {
   },
   methods: {
     async fetchCovidData() {
-      const res = await fetch('')
+      const res = await fetch('https://api.covid19api.com/summary')
+      const data = await res.json()
+      console.log(data)
+      return data
     }
+  },
+  async created() {
+    const data = await this.fetchCovidData()
+    console.log(data)
   }
 }
 </script>
