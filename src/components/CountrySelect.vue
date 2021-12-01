@@ -24,10 +24,10 @@ export default {
     },
     methods: {
         onChange() {
-            console.log("you selected "+ this.selected)
-            console.log(this.countries.filter(country=> country.Country === this.selected))
+            // console.log("you selected "+ this.selected)
+            // console.log(this.countries.filter(country=> country.Country === this.selected))
             const country = this.countries.find((item) => item.Country === this.selected)
-            console.log(country)
+            //console.log(country)
             this.$emit('get-country', country)
         }
     }
