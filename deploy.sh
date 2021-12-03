@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 #if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:waruneeDinunzio/Vue_Covid_Tracker.git master:gh-pages
+git push -f git@github.com:waruneedinunzio/Vue_Covid_Tracker.git master:gh-pages
 
 cd -
