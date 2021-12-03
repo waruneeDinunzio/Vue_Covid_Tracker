@@ -23,7 +23,8 @@
             </div>
        </div>
 
-       <!-- DataBoxes {{stats}} -->
+       <!-- DataBoxes {{stats}} 
+       -->
    </div> 
 </template>
 
