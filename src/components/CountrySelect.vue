@@ -2,7 +2,7 @@
     <div>
         <select @change="onChange()" 
                 v-model="selected" 
-                class="form-select mt-10 mb-8 block w-full border p-3 rounded">
+                class="form-select mt-10 mb-10 block w-full border p-3 rounded">
             <option value="0">Select Country</option>
             <!--loop thoug data array name countries-->
             <option v-for="country in countries" v-bind:key="country.ID">
